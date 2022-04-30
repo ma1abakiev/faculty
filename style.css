@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 10px;
+    padding: 10px 0;
 
 }
 .item{
@@ -104,9 +104,6 @@
     .container{
         max-width: 300px;
     }
-    .items{
-        padding: 2px ;
-    }
     .item{
         padding: 10px;
     }
@@ -116,9 +113,6 @@
     .container{
         margin: 0 auto;
         max-width: none;
-    }
-    .items{
-        width: 114%;
     }
     .item{
         margin: 0 5px 0 2px;
